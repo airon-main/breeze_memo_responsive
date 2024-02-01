@@ -1,5 +1,5 @@
 import 'package:breeze_memo_responsive/reusables/color_pallettes/breeze_dark.dart';
-import 'package:breeze_memo_responsive/reusables/components/home.dart';
+import 'package:breeze_memo_responsive/reusables/components/notes.dart';
 import 'package:breeze_memo_responsive/reusables/extension/gap.dart';
 import 'package:flutter/material.dart';
 
