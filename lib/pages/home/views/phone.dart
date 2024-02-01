@@ -1,3 +1,4 @@
+import 'package:breeze_memo_responsive/pages/home/components/drawer.dart';
 import 'package:breeze_memo_responsive/reusables/color_pallettes/breeze_dark.dart';
 import 'package:breeze_memo_responsive/reusables/components/buttons.dart';
 import 'package:breeze_memo_responsive/reusables/components/notes.dart';
@@ -11,21 +12,7 @@ class HomePhone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Container(
-        decoration: BoxDecoration(
-          color: BreezeDark.carddark,
-          borderRadius:
-              const BorderRadius.horizontal(right: Radius.circular(10)),
-        ),
-        padding: const EdgeInsets.all(8),
-        width: 300,
-        child: const SafeArea(
-            child: Column(
-          children: [
-            IconTextButton(),
-          ],
-        )),
-      ),
+      drawer: const MyDrawer(),
       appBar: AppBar(
         backgroundColor: BreezeDark.background,
         foregroundColor: BreezeDark.white,
